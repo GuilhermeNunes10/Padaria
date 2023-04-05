@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+#cabecalho {
+    display: flex;
+    background-color: #EDDFCA;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cabecalho ul p a:hover {
+    background-color: #e5be83;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+.barradebusca {
+    justify-content: center;
+    text-align: center;
+}
+
+.pesquisa {
+    width: 500px;
+    padding-left: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.pesquisa input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    outline: none;
+}
+
+.pesquisa button {
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.navegacao nav a {
+    text-decoration: none;
+}
+
+.navegacao nav ul {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.paocorpo {
+    position: relative;
+    width: 100%;
+    height: 568px;
+    background-size: cover;
+    background-image: url(../img/ummontedepão.jpg);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paocorpo h1,
+.paocorpo h2 {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.navegacao nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 600px;
+}
+
+#tipos {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paoo a {
+    text-decoration: none;
+    color: black;
+}
+
+#parte3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: #EDDFCA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    padding: 15px;
+}
+
+.sobrenos {
+    margin: 20px;
+    padding: 20px;
+}
+
+#style {
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 700px;
+    margin-left: 50px;
+
+}
+
+#style h2 {
+
+    padding: 20px;
+}
+
+#style h3 {
+
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #FAF6F6;
+}
+
+.organizartext {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+.organizartext div {
+    padding: 50px;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.overlay {
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo1 h3 {
+    padding-bottom: 20px;
+
+}
+
+#titulo2 h3 {
+    padding-bottom: 20px;
+}
+
+#titulo1 {
+    margin-right: 200px;
+}
+
+#titulo2 {
+    margin-left: 100px;
+}
+
+#style h2 {
+    color: #000;
+}
+
+.navegacao a {
+    color: black;
+}
+
+#tipos h3 {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.click {
+    cursor: pointer;
+}

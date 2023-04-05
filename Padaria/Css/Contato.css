@@ -1,0 +1,150 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: 0.3s;
+}
+
+#cabecalho {
+    display: flex;
+    background-color: #EDDFCA;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding-left: 150px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 12px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#cabecalho ul p a:hover {
+    background-color: #e5be83;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+.navegacao a {
+    align-items: center;
+    gap: 100px;
+
+}
+
+.navcolor p a {
+    color: black;
+    text-decoration: none;
+}
+
+.contato {
+    margin-top: 60px;
+}
+
+.um {
+    padding: 10px 100px;
+}
+
+.curta{
+    padding: 40px 100px;
+    font-size: 25px;
+}
+
+#img {
+    margin-left: 100px;
+}
+
+#login {
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+#tudo {
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.on {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#envia{
+    padding-left: 270px;
+    padding-bottom: 20px;
+}
+.btn {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 13px;
+  }
+
+    .btn:active {
+    background: black;
+    top: 2px;
+    }
+
+#login label {
+    display: block;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(100% - 20%);
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    outline: none;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    width: 500px;
+}
+
+textarea {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(100% - 20%);
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    outline: none;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    resize: none;
+    height: 180px;
+    width: 500px
+}
+
+
+#rodape {
+    background-color: #EDDFCA;
+}
